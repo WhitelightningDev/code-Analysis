@@ -7,6 +7,7 @@ import { CSharpParser } from './csharp-parser';
 import { GoParser } from './go-parser';
 import { PHPParser } from './php-parser';
 import { TypeScriptParser } from './typescript-parser';
+import { HTMLParser } from './html-parser'; // Import the new HTMLParser
 
 @Injectable({
   providedIn: 'root',
@@ -20,7 +21,8 @@ export class ParserFactoryService {
     private csharpParser: CSharpParser,
     private goParser: GoParser,
     private phpParser: PHPParser,
-    private tsParser: TypeScriptParser
+    private tsParser: TypeScriptParser,
+    private htmlParser: HTMLParser // Inject the HTMLParser
   ) {}
 
   getParser(language: string) {
@@ -41,6 +43,8 @@ export class ParserFactoryService {
         return this.phpParser;
       case 'typescript':
         return this.tsParser;
+      case 'html': // Add HTML case
+        return this.htmlParser;
       default:
         return null;
     }
