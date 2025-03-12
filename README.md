@@ -41,21 +41,9 @@ Make sure you have the following installed on your machine:
 1. Clone this repository:
 
 git clone https://github.com/your-username/code-debugger.git
-Navigate to the project directory:
-bash
-Copy
-Edit
-cd code-debugger
-Install the dependencies:
-bash
-Copy
-Edit
-npm install
-Serve the app locally:
-bash
-Copy
-Edit
-ng serve
+Navigate to the project directory: cd code-debugger
+Install the dependencies: npm install
+Serve the app locally: ng serve
 After that, open your browser and navigate to http://localhost:4200 to view the application.
 
 Usage
@@ -89,7 +77,7 @@ Edit
 
 ### **What’s Included:**
 
-- **Logo**: At the top of the README using `![Logo](assets/logo.png)`. Make sure to place your logo image in the `assets` folder.
+- **Logo**: At the top of the README using `![Logo](public/codelogo.png)`. Make sure to place your logo image in the `public` folder.
 - **Overview Section**: Describes the functionality of the app.
 - **Technologies Used**: Lists the technologies used to build the app.
 - **Installation Instructions**: Detailed instructions on how to install and run the app locally.
