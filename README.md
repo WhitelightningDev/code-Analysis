@@ -18,9 +18,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Screenshots
 
-![Screenshot1](public/codescreenshot1.jpg)
-![Screenshot1](public/codescreenshot2.jpg)
-![Screenshot1](public/codescreenshot3.jpg)
+![Screenshot1](public/codescreenshot1.JPG)
+![Screenshot2](public/codescreenshot2.JPG)
+![Screenshot3](public/codescreenshot3.JPG)
 ## Technologies Used
 
 - **Angular**: Frontend framework for building the user interface.
