@@ -71,10 +71,6 @@ Open a pull request to the main repository.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-markdown
-Copy
-Edit
-
 ### **What’s Included:**
 
 - **Logo**: At the top of the README using `![Logo](public/codelogo.png)`. Make sure to place your logo image in the `public` folder.
