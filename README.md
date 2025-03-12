@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 # Code Debugger
 
-![Logo](codelogo.png)
+![Logo](public/codelogo.png)
 
 ## Overview
 
