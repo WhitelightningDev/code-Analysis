@@ -71,13 +71,4 @@ Open a pull request to the main repository.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### **What’s Included:**
 
-- **Logo**: At the top of the README using `![Logo](public/codelogo.png)`. Make sure to place your logo image in the `public` folder.
-- **Overview Section**: Describes the functionality of the app.
-- **Technologies Used**: Lists the technologies used to build the app.
-- **Installation Instructions**: Detailed instructions on how to install and run the app locally.
-- **Usage Instructions**: Simple steps on how to use the app after installation.
-- **Supported Languages**: Lists the programming languages supported by the app.
-- **Contributing Section**: Describes how users can contribute to the project.
-- **License Section**: Includes the project license (e.g., MIT License).
