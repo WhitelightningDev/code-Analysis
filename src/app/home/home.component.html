@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Code Debugger</h2>
+
+  <!-- Code Input -->
+  <div class="mb-3">
+    <label for="codeInput" class="form-label">Paste your code:</label>
+    <textarea
+      id="codeInput"
+      class="form-control"
+      rows="10"
+      [(ngModel)]="code"
+      placeholder="Enter your code here..."
+    ></textarea>
+  </div>
+
+  <!-- Analyze Button -->
+  <button class="btn btn-primary w-100" (click)="analyzeCode()">Analyze Code</button>
+
+  <!-- Detected Language -->
+  <div class="mt-4">
+    <h5>Detected Language: <span class="text-success">{{ detectedLanguage || 'Unknown' }}</span></h5>
+  </div>
+
+  <!-- Parsing Results -->
+  <div class="mt-3">
+    <h5>Debugging Results:</h5>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let issue of parsingResults">{{ issue }}</li>
+    </ul>
+  </div>
+</div>
